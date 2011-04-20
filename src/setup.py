@@ -4,4 +4,4 @@ from glob import glob
 
 data_files = [("Microsoft.VC90.CRT", glob(r'c:\dist\*.*'))]
 
-setup(data_files=data_files,console=['time.py'])
+setup(data_files=data_files,console=['ttime.py'])

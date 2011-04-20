@@ -14,7 +14,7 @@ h2. Examples:
 The following command defines the active file and displays all time in the project "+project"
 
 <pre>
-./time -f "~/time.txt" +project
+./ttime -f "~/time.txt" +project
 </pre>
 
 h3. Example Output:
@@ -30,7 +30,7 @@ Total time: 3.00
 Once I've defined the active file I don't have to specify it unless I want to change that setting.  In this next command I want to see items both in the project "+project" and in the category "@warehouse".
 
 <pre>
-./time +project and @warehouse
+./ttime +project and @warehouse
 </pre>
 
 h3. Example Output:
@@ -44,7 +44,7 @@ Total time: 1.50
 This time I want see any entry that is in the category "@bob" or in the project "+project".  I also want to save the output to a text file instead of displaying it to the screen.
 
 <pre>
-./time +project or @bob --save="results.txt"
+./ttime +project or @bob --save="results.txt"
 </pre>
 
 h3. Example Contents of results.txt:
@@ -59,7 +59,7 @@ Lunch with client +project #1
 This time I want any time in the project "+project" that happened after 4/20.  I also want to save the output to a csv instead of displaying it to the screen.
 
 <pre>
-./time +project and ">4-20-2011" --save="results.csv"
+./ttime +project and ">4-20-2011" --save="results.csv"
 </pre>
 
 h3. Example Contents of results.csv:
@@ -72,7 +72,7 @@ Date,Hours,Project,Category,Note
 In this example I want to import the results.csv (you can also import plain text files) into my active file and display any item greater than 1 hour.
 
 <pre>
-./time ">1" --import="results.csv"
+./ttime ">1" --import="results.csv"
 </pre>
 
 <pre>
@@ -97,4 +97,4 @@ h2. Download:
 
 Windows (Zip file, Contains Python):"https://github.com/tazzben/time.txt/blob/master/dist/time_dist.zip":https://github.com/tazzben/time.txt/blob/master/dist/time_dist.zip?raw=true
 Windows (Zip file): "https://github.com/tazzben/time.txt/blob/master/dist/time.zip":https://github.com/tazzben/time.txt/blob/master/dist/time.zip?raw=true
-Max/Linux/Etc (tar.gz file): "https://github.com/tazzben/time.txt/blob/master/dist/time.tar.gz":https://github.com/tazzben/time.txt/blob/master/dist/time.tar.gz?raw=true
+Mac/Linux/Etc (tar.gz file): "https://github.com/tazzben/time.txt/blob/master/dist/time.tar.gz":https://github.com/tazzben/time.txt/blob/master/dist/time.tar.gz?raw=true
