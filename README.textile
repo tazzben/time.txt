@@ -84,7 +84,7 @@ Total time: 1.50
 This time I simply want to add a line to my active file:
 
 <pre>
-./expense --add='4/20/2011: Spent some time shopping for equipment #2.5 @electronics +personal'
+./ttime --add='4/20/2011: Spent some time shopping for equipment #2.5 @electronics +personal'
 </pre>
 
 h2. Installing:
