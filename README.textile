@@ -87,6 +87,17 @@ This time I simply want to add a line to my active file:
 ./ttime --add='4/20/2011: Spent some time shopping for equipment #2.5 @electronics +personal'
 </pre>
 
+h2. The Super Easy Way to Install (Macports)
+
+You can install this application using MacPorts!  Type the following:
+
+<pre>
+sudo port -v selfupdate
+sudo port install time.txt
+</pre>
+
+This method takes care of all dependancies and can manage updates for you.  For information on installing MacPorts, please visit "their site":http://www.macports.org/install.php.
+
 h2. Installing:
 
 Installing time.txt is pretty easy. Because Macs and Linux already include Python, all you need to do is download the time.txt source, decompress it, and move it wherever you want. Of course, if you use time.txt a lot you might want to "add your installation location to your PATH variable":http://kb.wbpsystems.com/index.php/article/setting-your-path-variable.
